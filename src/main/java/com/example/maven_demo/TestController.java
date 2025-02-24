@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.maven_demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class TestController {
     
     @GetMapping("/")
     String testController() {
-        return "Hello World from gradle!";
+        return "Hello World from maven!";
     }
 }
